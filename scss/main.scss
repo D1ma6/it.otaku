@@ -1,12 +1,29 @@
+@import "./colors";
+@import "./blocks/header";
+@import "./blocks/hero";
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: border-box !important;
   padding: 0;
   margin: 0;
+  letter-spacing: 0.02em !important;
 }
 
 body {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
+}
+button {
+  display: flex;
+  border: none;
+  color: $white;
+  background: $blue;
+}
+button,
+input {
+  outline: none !important;
+}
+a {
+  text-decoration: none !important;
 }
