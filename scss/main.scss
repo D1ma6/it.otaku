@@ -1,6 +1,7 @@
 @import "./colors";
 @import "./blocks/header";
 @import "./blocks/hero";
+@import "./blocks/article";
 *,
 *::before,
 *::after {
@@ -13,6 +14,7 @@
 body {
   font-size: 14px;
   font-family: "Roboto", sans-serif !important;
+  height: 200vh;
 }
 button {
   display: flex;
@@ -26,4 +28,12 @@ input {
 }
 a {
   text-decoration: none !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4 !important;
 }
