@@ -2,6 +2,9 @@
 @import "./blocks/header";
 @import "./blocks/hero";
 @import "./blocks/article";
+@import "./blocks/subscribe";
+@import "./blocks/gallery";
+@import "./blocks/footer";
 *,
 *::before,
 *::after {
@@ -26,8 +29,12 @@ button,
 input {
   outline: none !important;
 }
+ul,
+li,
 a {
+  list-style: none !important;
   text-decoration: none !important;
+  color: $blue;
 }
 h1,
 h2,
@@ -36,4 +43,17 @@ h4,
 h5,
 h6 {
   line-height: 1.4 !important;
+}
+.container {
+  &__title {
+    font-size: 24px;
+    color: $black;
+  }
+  &__btn {
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    color: $white;
+    border-radius: 20px;
+  }
 }

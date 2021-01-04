@@ -78,7 +78,9 @@
               The best blogging platform about anime, technology and development
             </h1>
             <!-- /.hero__content__h1 -->
-            <button class="hero__content__btn">Get started</button>
+            <button class="hero__content__btn container__btn">
+              Get started
+            </button>
             <!-- /.hero__content__btn -->
           </div>
           <!-- /.hero__content -->
@@ -151,7 +153,7 @@
     </section>
     <!-- /.hero -->
     <section class="work-articles article__container container">
-      <h1 class="article__container__title">World</h1>
+      <h1 class="container__title">World</h1>
       <div class="row">
         <div class="article col-lg-3 col-md-4 col-sm-6 col-xs-12">
           <div class="article__image">
@@ -337,8 +339,106 @@
     </section>
     <!-- /.work-articles container -->
     <section class="subscribe">
-      <div class="container"></div>
+      <div class="container d-flex flex-column align-items-center">
+        <h1 class="subscribe__title">Subscribe to our newsletter</h1>
+        <p class="subscribe__para">
+          Get the latest updates about the topics you are interested in -
+          technology, world, anime and much more. Subscribe today to get our
+          special bonus
+        </p>
+        <form action="POST" class="subscribe__form d-flex">
+          <input type="text" class="subscribe__form__input" /><button
+            class="container__btn"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
     </section>
+    <!-- /.subscribe -->
+    <section class="gallery__container">
+      <div class="container">
+        <h1 class="container__title">Gallery</h1>
+        <div class="row">
+          <div class="gallery col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="gallery__photo">
+              <img src="./img/article-bg.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="gallery__photo">
+              <img src="./img/article-bg.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="gallery__photo">
+              <img src="./img/article-bg.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="gallery__photo">
+              <img src="./img/article-bg.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="gallery__photo">
+              <img src="./img/article-bg.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="gallery__photo">
+              <img src="./img/article-bg.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="gallery__photo">
+              <img src="./img/article-bg.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="gallery__photo">
+              <img src="./img/article-bg.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <button class="container__btn gallery__btn">Load more</button>
+      </div>
+    </section>
+    <!-- /.gallery -->
+
+    <footer class="footer">
+      <div class="container">
+        <div
+          class="row d-flex align-items-center justify-content-between footer__row"
+        >
+          <div class="footer__brand col-lg-4 col-sm-12">
+            <a href="/"
+              ><img class="footer__brand__logo" src="./img/logo-l.svg" alt=""
+            /></a>
+            <span class="footer__brand__para"
+              >The best blogging platform about anime, technology and
+              development</span
+            >
+          </div>
+          <ul class="footer__menu col-lg-8 col-sm-12 d-flex">
+            <li class="footer__menu__item"><a href="/">Twitter</a></li>
+            <li class="footer__menu__item"><a href="/">Instagram</a></li>
+            <li class="footer__menu__item"><a href="/">Facebook</a></li>
+            <li class="footer__menu__item footer__menu__item-focus">
+              <a href="/" class="container__btn">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex footer__bottom">
+          <a href="/" class="footer__bottom__link"
+            >© it.otaku all rights reserved</a
+          >
+          <a href="/" class="footer__bottom__link">Privacy policy</a>
+          <a href="/" class="footer__bottom__link">Terms of use</a>
+        </div>
+      </div>
+    </footer>
+    <!-- /.footer -->
     <!-- scripts -->
     <script src="./scripts/main.js"></script>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
