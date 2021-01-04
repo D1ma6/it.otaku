@@ -6,7 +6,6 @@
     padding: 60px 0;
     border-bottom: 1px solid $white-s;
   }
-
   &:hover {
     cursor: pointer;
     .article__btn {
@@ -22,8 +21,21 @@
     width: 100%;
     max-height: 190px;
     overflow: hidden;
-    &__round {
-      border-radius: 20px;
+    &__primary {
+      border-radius: 20px !important;
+      &__main {
+        max-height: 290px;
+        border-radius: 20px !important;
+      }
+      &__secondary {
+        max-height: 260px;
+        border-radius: 20px !important;
+      }
+    }
+    &__secondary {
+      &__main {
+        max-height: 330px;
+      }
     }
     &__category {
       position: absolute;
@@ -74,9 +86,100 @@
     margin: 10px 0 20px 0;
   }
   &__para {
+    font-size: 14px;
+    font-weight: 300;
+    color: $grey;
+    line-height: 1.8;
+    margin: 0 0 20px 0;
   }
   &__btn {
     color: $blue;
     transition: margin 0.3s ease-in-out;
+    font-size: 14px;
+  }
+
+  &__primary {
+    &__container {
+      padding: 140px 0 0 0;
+    }
+
+    &__title {
+      font-size: 32px;
+      font-weight: 700;
+      color: $black;
+      margin: 0 !important;
+    }
+    &__nav {
+      justify-content: space-around;
+      align-items: center;
+      margin: 0 !important;
+
+      &__item {
+        & > a {
+          &.active {
+            background: $blue !important;
+            color: $white !important;
+          }
+          &:first-child {
+            padding: 15px 20px;
+          }
+          color: $grey-s;
+          background: $white-s;
+        }
+      }
+    }
+  }
+
+  &__blog {
+    margin: 0 0 0 15px;
+    &__image {
+      max-width: 210px;
+    }
+    &__title {
+      font-size: 16px;
+    }
+  }
+}
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .article {
+    &__primary {
+      &__title {
+        text-align: center;
+      }
+      &__nav {
+        margin: 30px 0 0 0 !important;
+        align-items: center;
+        &__item {
+          &:nth-last-child(1) {
+            display: none;
+          }
+          &:nth-last-child(2) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 576px) {
+  .article {
+    &__primary {
+      &__nav {
+        flex-wrap: wrap;
+        margin: 0 !important;
+        &__item {
+          margin: 40px 0 0 0 !important;
+          &:nth-last-child(1) {
+            display: block;
+          }
+          &:nth-last-child(2) {
+            display: block;
+          }
+        }
+      }
+    }
   }
 }

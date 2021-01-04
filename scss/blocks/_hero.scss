@@ -75,3 +75,16 @@
     }
   }
 }
+@media only screen and (max-width: 992px) {
+  .hero {
+    &__content {
+      &__h1 {
+        font-size: 28px;
+        max-width: 520px;
+      }
+      &__h2 {
+        font-size: 18px;
+      }
+    }
+  }
+}

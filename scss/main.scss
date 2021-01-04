@@ -5,6 +5,7 @@
 @import "./blocks/subscribe";
 @import "./blocks/gallery";
 @import "./blocks/footer";
+@import "./blocks/faqs";
 *,
 *::before,
 *::after {
@@ -47,7 +48,13 @@ h6 {
 .container {
   &__title {
     font-size: 24px;
+    font-weight: 700;
     color: $black;
+    margin: 0;
+
+    &-m60 {
+      margin: 60px 0 0 0;
+    }
   }
   &__btn {
     padding: 15px 25px;

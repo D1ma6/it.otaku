@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>it.otaku</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header fixed-top navbar navbar-expand-lg navbar-dark">
+      <div class="header__inner container">
+        <div class="header__logo navbar-brand">
+          <img src="./img/logo.svg" alt="logo" />
+        </div>
+        <!-- /.header__logo -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="header__navbar__collapse collapse navbar-collapse"
+          id="navbarNav"
+        >
+          <ul class="header__navbar navbar-nav justify-content-end">
+            <li class="header__navbar__item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="header__navbar__item">
+              <a class="nav-link active" aria-current="page" href="/">Blog</a>
+            </li>
+            <li class="header__navbar__item">
+              <a class="nav-link" href="./FAQs.html">FAQs</a>
+            </li>
+          </ul>
+          <div class="header__navbar__search">
+            <input type="text" class="header__navbar__search__input" />
+            <button class="header__navbar__search__btn">
+              <img src="./img/search.svg" alt="" />
+            </button>
+          </div>
+          <!-- /.header__search -->
+        </div>
+        <!-- /.collapse navbar-collapse -->
+      </div>
+      <!-- /.header__inner container -->
+    </header>
+    <!-- /.header -->
+
+    <section class="article__primary container">
+      <div class="row article__primary__container d-flex align-items-center">
+        <h2 class="article__primary__title col-lg-2 col-md-2">BLOG</h2>
+        <ul class="article__primary__nav col-lg-9 col-md-10 d-flex">
+          <li class="article__primary__nav__item active">
+            <a href="/" class="container__btn active">All</a>
+          </li>
+          <li class="article__primary__nav__item">
+            <a href="/" class="container__btn">Featured</a>
+          </li>
+          <li class="article__primary__nav__item">
+            <a href="/" class="container__btn">Popular</a>
+          </li>
+          <li class="article__primary__nav__item">
+            <a href="/" class="container__btn">World</a>
+          </li>
+          <li class="article__primary__nav__item">
+            <a href="/" class="container__btn">Java</a>
+          </li>
+          <li class="article__primary__nav__item">
+            <a href="/" class="container__btn">JavaScript</a>
+          </li>
+          <li class="article__primary__nav__item">
+            <a href="/" class="container__btn">Anime</a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <section class="work-articles article__container container">
+          <div class="row">
+            <div class="col-lg-7 col-md-8">
+              <h1 class="container__title">Popular</h1>
+              <div class="row d-flex">
+                <div class="article col-12">
+                  <div class="article__image article__image__primary__main">
+                    <span class="article__image__category">Python</span>
+                    <img src="./img/article-bg2.jpg" alt="article photo" />
+                    <span class="article__image__featured">Featured</span>
+                  </div>
+                  <div class="article__info">
+                    <span class="article__info__date">Jan 1, 2021</span>
+                  </div>
+                  <h1 class="article__title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+                    eiusmod tempor incididunt
+                  </h1>
+                  <p class="article__para">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                  </p>
+                  <a href="/" class="article__btn"
+                    >Read the article
+                    <span
+                      class="iconify"
+                      data-inline="false"
+                      data-icon="bi:box-arrow-in-right"
+                      style="color: #4369ef; font-size: 18px"
+                    ></span
+                  ></a>
+                </div>
+                <div class="article col-12 col-lg-6">
+                  <div
+                    class="article__image article__image__primary__secondary"
+                  >
+                    <span class="article__image__category">Python</span>
+                    <img src="./img/article-bg3.jpg" alt="article photo" />
+                    <span class="article__image__featured">Featured</span>
+                  </div>
+                  <div class="article__info">
+                    <span class="article__info__date">Jan 1, 2021</span>
+                  </div>
+                  <h1 class="article__title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+                    eiusmod tempor incididunt
+                  </h1>
+                  <p class="article__para">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <a href="/" class="article__btn"
+                    >Read the article
+                    <span
+                      class="iconify"
+                      data-inline="false"
+                      data-icon="bi:box-arrow-in-right"
+                      style="color: #4369ef; font-size: 18px"
+                    ></span
+                  ></a>
+                </div>
+                <div class="article col-12 col-lg-6">
+                  <div
+                    class="article__image article__image__primary__secondary"
+                  >
+                    <span class="article__image__category">Python</span>
+                    <img src="./img/article-bg4.jpg" alt="article photo" />
+                  </div>
+                  <div class="article__info">
+                    <span class="article__info__date">Jan 1, 2021</span>
+                  </div>
+                  <h1 class="article__title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+                    eiusmod tempor incididunt
+                  </h1>
+                  <p class="article__para">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <a href="/" class="article__btn"
+                    >Read the article
+                    <span
+                      class="iconify"
+                      data-inline="false"
+                      data-icon="bi:box-arrow-in-right"
+                      style="color: #4369ef; font-size: 18px"
+                    ></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-4">
+              <h1 class="container__title mt-5 mt-md-0">New</h1>
+              <div class="row">
+                <div
+                  class="article d-flex align-items-center flex-md-column flex-lg-row"
+                >
+                  <div
+                    class="article__image article__blog__image article__image__primary"
+                  >
+                    <span class="article__image__category">Python</span>
+                    <img src="./img/article-bg5.jpg" alt="article photo" />
+                  </div>
+                  <div class="article__blog">
+                    <div class="article__info">
+                      <span class="article__info__date">Jan 1, 2021</span>
+                    </div>
+                    <h1 class="article__title article__blog__title">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      do eiusmod tempor incididunt
+                    </h1>
+
+                    <a href="/" class="article__btn"
+                      >Read the article
+                      <span
+                        class="iconify"
+                        data-inline="false"
+                        data-icon="bi:box-arrow-in-right"
+                        style="color: #4369ef; font-size: 18px"
+                      ></span
+                    ></a>
+                  </div>
+                </div>
+                <div
+                  class="article d-flex align-items-center flex-md-column flex-lg-row"
+                >
+                  <div
+                    class="article__image article__blog__image article__image__primary"
+                  >
+                    <span class="article__image__category">Python</span>
+                    <img src="./img/article-bg.jpg" alt="article photo" />
+                  </div>
+                  <div class="article__blog">
+                    <div class="article__info">
+                      <span class="article__info__date">Jan 1, 2021</span>
+                    </div>
+                    <h1 class="article__title article__blog__title">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      do eiusmod tempor incididunt
+                    </h1>
+
+                    <a href="/" class="article__btn"
+                      >Read the article
+                      <span
+                        class="iconify"
+                        data-inline="false"
+                        data-icon="bi:box-arrow-in-right"
+                        style="color: #4369ef; font-size: 18px"
+                      ></span
+                    ></a>
+                  </div>
+                </div>
+                <div
+                  class="article d-flex align-items-center flex-md-column flex-lg-row"
+                >
+                  <div
+                    class="article__image article__blog__image article__image__primary"
+                  >
+                    <span class="article__image__category">Python</span>
+                    <img src="./img/article-bg6.jpg" alt="article photo" />
+                    <span class="article__image__featured">Featured</span>
+                  </div>
+                  <div class="article__blog">
+                    <div class="article__info">
+                      <span class="article__info__date">Jan 1, 2021</span>
+                    </div>
+                    <h1 class="article__title article__blog__title">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      do eiusmod tempor incididunt
+                    </h1>
+
+                    <a href="/" class="article__btn"
+                      >Read the article
+                      <span
+                        class="iconify"
+                        data-inline="false"
+                        data-icon="bi:box-arrow-in-right"
+                        style="color: #4369ef; font-size: 18px"
+                      ></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <h1 class="container__title container__title-m60">Hot</h1>
+              <div class="row">
+                <div class="article d-flex flex-md-column flex-lg-row">
+                  <div
+                    class="article__image article__blog__image article__image__primary"
+                  >
+                    <span class="article__image__category">Python</span>
+                    <img src="./img/article-bg.jpg" alt="article photo" />
+                  </div>
+                  <div class="article__blog">
+                    <div class="article__info">
+                      <span class="article__info__date">Jan 1, 2021</span>
+                    </div>
+                    <h1 class="article__title article__blog__title">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      do eiusmod tempor incididunt
+                    </h1>
+
+                    <a href="/" class="article__btn"
+                      >Read the article
+                      <span
+                        class="iconify"
+                        data-inline="false"
+                        data-icon="bi:box-arrow-in-right"
+                        style="color: #4369ef; font-size: 18px"
+                      ></span
+                    ></a>
+                  </div>
+                </div>
+                <div class="article d-flex flex-md-column flex-lg-row">
+                  <div
+                    class="article__image article__blog__image article__image__primary"
+                  >
+                    <span class="article__image__category">Python</span>
+                    <img src="./img/article-bg.jpg" alt="article photo" />
+                    <span class="article__image__featured">Featured</span>
+                  </div>
+                  <div class="article__blog">
+                    <div class="article__info">
+                      <span class="article__info__date">Jan 1, 2021</span>
+                    </div>
+                    <h1 class="article__title article__blog__title">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      do eiusmod tempor incididunt
+                    </h1>
+
+                    <a href="/" class="article__btn"
+                      >Read the article
+                      <span
+                        class="iconify"
+                        data-inline="false"
+                        data-icon="bi:box-arrow-in-right"
+                        style="color: #4369ef; font-size: 18px"
+                      ></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="container__btn gallery__btn">Load more</button>
+        </section>
+        <!-- /.work-articles container -->
+      </div>
+    </section>
+    <!-- /.article__primary -->
+
+    <section class="article__container container">
+      <h1 class="container__title">Web development</h1>
+      <div class="row">
+        <div class="col-6">
+          <div class="row">
+            <div class="article">
+              <div class="article__image article__image__secondary__main">
+                <span class="article__image__category">Python</span>
+                <img src="./img/article-bg.jpg" alt="article photo" />
+              </div>
+              <div class="article__info">
+                <span class="article__info__date">Jan 1, 2021</span>
+              </div>
+              <h1 class="article__title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+                eiusmod tempor incididunt
+              </h1>
+              <p class="article__para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <a href="/" class="article__btn">
+                Read the article
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bi:box-arrow-in-right"
+                  style="color: #4369ef; font-size: 18px"
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <div class="article col-6">
+              <div class="article__image">
+                <span class="article__image__category">Python</span>
+                <img src="./img/article-bg3.jpg" alt="article photo" />
+              </div>
+              <div class="article__info">
+                <span class="article__info__date">Jan 1, 2021</span>
+              </div>
+              <h1 class="article__title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+                eiusmod tempor incididunt
+              </h1>
+              <a href="/" class="article__btn"
+                >Read the article
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bi:box-arrow-in-right"
+                  style="color: #4369ef; font-size: 18px"
+                ></span
+              ></a>
+            </div>
+            <div class="article col-6">
+              <div class="article__image">
+                <span class="article__image__category">Python</span>
+                <img src="./img/article-bg.jpg" alt="article photo" />
+                <span class="article__image__featured">Featured</span>
+              </div>
+              <div class="article__info">
+                <span class="article__info__date">Jan 1, 2021</span>
+              </div>
+              <h1 class="article__title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+                eiusmod tempor incididunt
+              </h1>
+              <a href="/" class="article__btn"
+                >Read the article
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bi:box-arrow-in-right"
+                  style="color: #4369ef; font-size: 18px"
+                ></span
+              ></a>
+            </div>
+            <div class="article col-6">
+              <div class="article__image">
+                <span class="article__image__category">Python</span>
+                <img src="./img/article-bg.jpg" alt="article photo" />
+              </div>
+              <div class="article__info">
+                <span class="article__info__date">Jan 1, 2021</span>
+              </div>
+              <h1 class="article__title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+                eiusmod tempor incididunt
+              </h1>
+              <a href="/" class="article__btn"
+                >Read the article
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bi:box-arrow-in-right"
+                  style="color: #4369ef; font-size: 18px"
+                ></span
+              ></a>
+            </div>
+            <div class="article col-6">
+              <div class="article__image">
+                <span class="article__image__category">Python</span>
+                <img src="./img/article-bg.jpg" alt="article photo" />
+              </div>
+              <div class="article__info">
+                <span class="article__info__date">Jan 1, 2021</span>
+              </div>
+              <h1 class="article__title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+                eiusmod tempor incididunt
+              </h1>
+              <a href="/" class="article__btn"
+                >Read the article
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bi:box-arrow-in-right"
+                  style="color: #4369ef; font-size: 18px"
+                ></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.work-articles container -->
+
+    <section class="article__container container">
+      <h1 class="container__title">Travel</h1>
+      <div class="row">
+        <div class="col-6">
+          <div class="row">
+            <div class="article">
+              <div class="article__image article__image__secondary__main">
+                <span class="article__image__category">Python</span>
+                <img src="./img/article-bg6.jpg" alt="article photo" />
+              </div>
+              <div class="article__info">
+                <span class="article__info__date">Jan 1, 2021</span>
+              </div>
+              <h1 class="article__title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+                eiusmod tempor incididunt
+              </h1>
+              <p class="article__para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <a href="/" class="article__btn">
+                Read the article
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bi:box-arrow-in-right"
+                  style="color: #4369ef; font-size: 18px"
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <div class="article col-6">
+              <div class="article__image">
+                <span class="article__image__category">Python</span>
+                <img src="./img/article-bg2.jpg" alt="article photo" />
+              </div>
+              <div class="article__info">
+                <span class="article__info__date">Jan 1, 2021</span>
+              </div>
+              <h1 class="article__title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+                eiusmod tempor incididunt
+              </h1>
+              <a href="/" class="article__btn"
+                >Read the article
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bi:box-arrow-in-right"
+                  style="color: #4369ef; font-size: 18px"
+                ></span
+              ></a>
+            </div>
+            <div class="article col-6">
+              <div class="article__image">
+                <span class="article__image__category">Python</span>
+                <img src="./img/article-bg5.jpg" alt="article photo" />
+                <span class="article__image__featured">Featured</span>
+              </div>
+              <div class="article__info">
+                <span class="article__info__date">Jan 1, 2021</span>
+              </div>
+              <h1 class="article__title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+                eiusmod tempor incididunt
+              </h1>
+              <a href="/" class="article__btn"
+                >Read the article
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bi:box-arrow-in-right"
+                  style="color: #4369ef; font-size: 18px"
+                ></span
+              ></a>
+            </div>
+            <div class="article col-6">
+              <div class="article__image">
+                <span class="article__image__category">Python</span>
+                <img src="./img/article-bg2.jpg" alt="article photo" />
+              </div>
+              <div class="article__info">
+                <span class="article__info__date">Jan 1, 2021</span>
+              </div>
+              <h1 class="article__title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+                eiusmod tempor incididunt
+              </h1>
+              <a href="/" class="article__btn"
+                >Read the article
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bi:box-arrow-in-right"
+                  style="color: #4369ef; font-size: 18px"
+                ></span
+              ></a>
+            </div>
+            <div class="article col-6">
+              <div class="article__image">
+                <span class="article__image__category">Python</span>
+                <img src="./img/article-bg4.jpg" alt="article photo" />
+              </div>
+              <div class="article__info">
+                <span class="article__info__date">Jan 1, 2021</span>
+              </div>
+              <h1 class="article__title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+                eiusmod tempor incididunt
+              </h1>
+              <a href="/" class="article__btn"
+                >Read the article
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bi:box-arrow-in-right"
+                  style="color: #4369ef; font-size: 18px"
+                ></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.work-articles container -->
+
+    <section class="article__container container">
+      <h1 class="container__title">World</h1>
+      <div class="row">
+        <div class="article col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="article__image">
+            <span class="article__image__category">Python</span>
+            <img src="./img/article-bg.jpg" alt="article photo" />
+          </div>
+          <div class="article__info">
+            <span class="article__info__date">Jan 1, 2021</span>
+          </div>
+          <h1 class="article__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod
+            tempor incididunt
+          </h1>
+          <a href="/" class="article__btn">
+            Read the article
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="bi:box-arrow-in-right"
+              style="color: #4369ef; font-size: 18px"
+            ></span>
+          </a>
+        </div>
+        <div class="article col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="article__image">
+            <span class="article__image__category">Python</span>
+            <img src="./img/article-bg.jpg" alt="article photo" />
+          </div>
+          <div class="article__info">
+            <span class="article__info__date">Jan 1, 2021</span>
+          </div>
+          <h1 class="article__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod
+            tempor incididunt
+          </h1>
+          <a href="/" class="article__btn"
+            >Read the article
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="bi:box-arrow-in-right"
+              style="color: #4369ef; font-size: 18px"
+            ></span
+          ></a>
+        </div>
+        <div class="article col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="article__image">
+            <span class="article__image__category">Python</span>
+            <img src="./img/article-bg.jpg" alt="article photo" />
+            <span class="article__image__featured">Featured</span>
+          </div>
+          <div class="article__info">
+            <span class="article__info__date">Jan 1, 2021</span>
+          </div>
+          <h1 class="article__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod
+            tempor incididunt
+          </h1>
+          <a href="/" class="article__btn"
+            >Read the article
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="bi:box-arrow-in-right"
+              style="color: #4369ef; font-size: 18px"
+            ></span
+          ></a>
+        </div>
+        <div class="article col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="article__image">
+            <span class="article__image__category">Python</span>
+            <img src="./img/article-bg.jpg" alt="article photo" />
+          </div>
+          <div class="article__info">
+            <span class="article__info__date">Jan 1, 2021</span>
+          </div>
+          <h1 class="article__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod
+            tempor incididunt
+          </h1>
+          <a href="/" class="article__btn"
+            >Read the article
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="bi:box-arrow-in-right"
+              style="color: #4369ef; font-size: 18px"
+            ></span
+          ></a>
+        </div>
+
+        <div class="article col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="article__image">
+            <span class="article__image__category">Python</span>
+            <img src="./img/article-bg.jpg" alt="article photo" />
+            <span class="article__image__featured">Featured</span>
+          </div>
+          <div class="article__info">
+            <span class="article__info__date">Jan 1, 2021</span>
+          </div>
+          <h1 class="article__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod
+            tempor incididunt
+          </h1>
+          <a href="/" class="article__btn"
+            >Read the article
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="bi:box-arrow-in-right"
+              style="color: #4369ef; font-size: 18px"
+            ></span
+          ></a>
+        </div>
+        <div class="article col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="article__image">
+            <span class="article__image__category">Python</span>
+            <img src="./img/article-bg.jpg" alt="article photo" />
+            <span class="article__image__featured">Featured</span>
+          </div>
+          <div class="article__info">
+            <span class="article__info__date">Jan 1, 2021</span>
+          </div>
+          <h1 class="article__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod
+            tempor incididunt
+          </h1>
+          <a href="/" class="article__btn"
+            >Read the article
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="bi:box-arrow-in-right"
+              style="color: #4369ef; font-size: 18px"
+            ></span
+          ></a>
+        </div>
+        <div class="article col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="article__image">
+            <span class="article__image__category">Python</span>
+            <img src="./img/article-bg.jpg" alt="article photo" />
+          </div>
+          <div class="article__info">
+            <span class="article__info__date">Jan 1, 2021</span>
+          </div>
+          <h1 class="article__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod
+            tempor incididunt
+          </h1>
+          <a href="/" class="article__btn"
+            >Read the article
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="bi:box-arrow-in-right"
+              style="color: #4369ef; font-size: 18px"
+            ></span
+          ></a>
+        </div>
+        <div class="article col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="article__image">
+            <span class="article__image__category">Python</span>
+            <img src="./img/article-bg.jpg" alt="article photo" />
+          </div>
+          <div class="article__info">
+            <span class="article__info__date">Jan 1, 2021</span>
+          </div>
+          <h1 class="article__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod
+            tempor incididunt
+          </h1>
+          <a href="/" class="article__btn"
+            >Read the article
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="bi:box-arrow-in-right"
+              style="color: #4369ef; font-size: 18px"
+            ></span
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- /.work-articles container -->
+
+    <footer class="footer">
+      <div class="container">
+        <div
+          class="row d-flex align-items-center justify-content-between footer__row"
+        >
+          <div class="footer__brand col-lg-4 col-sm-12">
+            <a href="/"
+              ><img class="footer__brand__logo" src="./img/logo-l.svg" alt=""
+            /></a>
+            <span class="footer__brand__para"
+              >The best blogging platform about anime, technology and
+              development</span
+            >
+          </div>
+          <ul class="footer__menu col-lg-8 col-sm-12 d-flex">
+            <li class="footer__menu__item"><a href="/">Twitter</a></li>
+            <li class="footer__menu__item"><a href="/">Instagram</a></li>
+            <li class="footer__menu__item"><a href="/">Facebook</a></li>
+            <li class="footer__menu__item footer__menu__item-focus">
+              <a href="/" class="container__btn">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex footer__bottom">
+          <a href="/" class="footer__bottom__link"
+            >© it.otaku all rights reserved</a
+          >
+          <a href="/" class="footer__bottom__link">Privacy policy</a>
+          <a href="/" class="footer__bottom__link">Terms of use</a>
+        </div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+    <!-- scripts -->
+    <script src="./scripts/main.js"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

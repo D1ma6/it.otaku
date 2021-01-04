@@ -2,6 +2,7 @@
 .gallery {
   margin: 30px 0 0 0 !important;
   &:hover {
+    cursor: pointer;
     .gallery__photo > img {
       transform: scale(1.2);
     }
