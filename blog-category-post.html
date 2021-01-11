@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>it.otaku</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header fixed-top navbar navbar-expand-lg navbar-dark">
+      <div class="header__inner container">
+        <div class="header__logo navbar-brand">
+          <img src="./img/logo.svg" alt="logo" />
+        </div>
+        <!-- /.header__logo -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="header__navbar__collapse collapse navbar-collapse"
+          id="navbarNav"
+        >
+          <ul class="header__navbar navbar-nav justify-content-end">
+            <li class="header__navbar__item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="header__navbar__item">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+            <li class="header__navbar__item">
+              <a class="nav-link" href="./FAQs.html">FAQs</a>
+            </li>
+          </ul>
+          <div class="header__navbar__search">
+            <input type="text" class="header__navbar__search__input" />
+            <button class="header__navbar__search__btn">
+              <img src="./img/search.svg" alt="" />
+            </button>
+          </div>
+          <!-- /.header__search -->
+        </div>
+        <!-- /.collapse navbar-collapse -->
+      </div>
+      <!-- /.header__inner container -->
+    </header>
+    <!-- /.header -->
+
+    <section class="article__container container">
+      <div class="row">
+        <div class="article col-lg-9 col-md-12 col-xs-12 col-sm-12">
+          <div class="article__image article__image__blog">
+            <span class="article__image__category">Python</span>
+            <img src="./img/article-bg.jpg" alt="article photo" />
+            <span
+              class="article__image__featured article__image__featured__blog"
+              >Featured</span
+            >
+          </div>
+          <div class="article__info">
+            <span class="article__info__date">Jan 1, 2021</span>
+            <span class="article__info__comments"
+              ><span
+                class="iconify"
+                data-inline="false"
+                data-icon="ant-design:comment-outlined"
+                style="color: #484848; font-size: 16px"
+              ></span
+              ><span>16 comments</span></span
+            ><span class="article__info__author">by dmytro</span>
+          </div>
+          <h1 class="article__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod
+            tempor incididunt
+          </h1>
+        </div>
+        <div
+          class="article article__featured col-3 d-none d-lg-flex flex-column"
+        >
+          <h1 class="article__featured__name">FEATURED</h1>
+          <div class="article article__featured__container">
+            <div class="article__title article__featured__title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+              eiusmod tempor incididunt
+            </div>
+            <div class="article__featured__container d-flex align-items-center">
+              <span class="article__info__date article__featured__data"
+                >Jan 1, 2021</span
+              >
+
+              <a href="/" class="article__btn article__featured__btn"
+                >Read the article
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bi:box-arrow-in-right"
+                  style="color: #4369ef; font-size: 12px"
+                ></span
+              ></a>
+            </div>
+          </div>
+          <div class="article article__featured__container">
+            <div class="article__title article__featured__title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+              eiusmod tempor incididunt
+            </div>
+            <div class="article__featured__container d-flex align-items-center">
+              <span class="article__info__date article__featured__data"
+                >Jan 1, 2021</span
+              >
+
+              <a href="/" class="article__btn article__featured__btn"
+                >Read the article
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bi:box-arrow-in-right"
+                  style="color: #4369ef; font-size: 12px"
+                ></span
+              ></a>
+            </div>
+          </div>
+          <div class="article article__featured__container">
+            <div class="article__title article__featured__title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+              eiusmod tempor incididunt
+            </div>
+            <div class="article__featured__container d-flex align-items-center">
+              <span class="article__info__date article__featured__data"
+                >Jan 1, 2021</span
+              >
+
+              <a href="/" class="article__btn article__featured__btn"
+                >Read the article
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bi:box-arrow-in-right"
+                  style="color: #4369ef; font-size: 12px"
+                ></span
+              ></a>
+            </div>
+          </div>
+          <div class="article article__featured__container">
+            <div class="article__title article__featured__title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
+              eiusmod tempor incididunt
+            </div>
+            <div class="article__featured__container d-flex align-items-center">
+              <span class="article__info__date article__featured__data"
+                >Jan 1, 2021</span
+              >
+
+              <a href="/" class="article__btn article__featured__btn"
+                >Read the article
+                <span
+                  class="iconify"
+                  data-inline="false"
+                  data-icon="bi:box-arrow-in-right"
+                  style="color: #4369ef; font-size: 12px"
+                ></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row col-lg-10">
+        <p class="article__para">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae
+          turpis massa sed elementum tempus egestas sed sed. Sit amet est
+          placerat in egestas erat imperdiet. Ante metus dictum at tempor
+          commodo ullamcorper a. Eu nisl nunc mi ipsum faucibus vitae. Magna
+          fermentum iaculis eu non diam phasellus vestibulum lorem. Nec nam
+          aliquam sem et tortor consequat id porta nibh. Porta nibh venenatis
+          cras sed felis eget velit aliquet. Eu lobortis elementum nibh tellus
+          molestie. Rhoncus urna neque viverra justo nec ultrices dui. Purus sit
+          amet volutpat consequat mauris nunc.
+          <br />
+          <br />
+          Mi eget mauris pharetra et ultrices neque ornare aenean. Risus nullam
+          eget felis eget nunc lobortis. Ornare quam viverra orci sagittis eu
+          volutpat. Id consectetur purus ut faucibus pulvinar. Tempor orci
+          dapibus ultrices in iaculis nunc sed augue. Semper quis lectus nulla
+          at volutpat diam. Ultrices neque ornare aenean euismod elementum nisi.
+          Pellentesque nec nam aliquam sem et tortor consequat id. Nisi porta
+          lorem mollis aliquam ut porttitor leo a. Volutpat ac tincidunt vitae
+          semper quis lectus nulla at. Proin nibh nisl condimentum id venenatis
+          a. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras
+          fermentum. At lectus urna duis convallis convallis tellus id interdum
+          velit. velit.
+        </p>
+        <h1 class="article__title">
+          Question 1: Mi eget mauris pharetra et ultrices neque ornare aenean.
+          Risus nullam eget felis eget nunc lobortis.
+        </h1>
+        <p class="article__para">
+          Scelerisque purus semper eget duis at. Donec ultrices tincidunt arcu
+          non. Dictum varius duis at consectetur lorem donec massa sapien
+          faucibus. Justo nec ultrices dui sapien eget mi proin sed libero.
+          Libero enim sed faucibus turpis in. Et magnis dis parturient montes
+          nascetur ridiculus mus. In metus vulputate eu scelerisque felis
+          imperdiet. Natoque penatibus et magnis dis parturient montes nascetur.
+          Convallis aenean et tortor at risus. Vitae congue mauris rhoncus
+          aenean vel. Leo urna molestie at elementum eu facilisis sed odio
+          morbi. Ridiculus mus mauris vitae ultricies leo integer. Viverra
+          tellus in hac habitasse platea dictumst vestibulum. Viverra
+          suspendisse potenti nullam ac tortor vitae purus faucibus. Ultrices
+          dui sapien eget mi proin sed libero enim sed.
+        </p>
+        <ul class="article__list">
+          <li class="article__list__item">First bulletpoint lorem inspuns</li>
+          <li class="article__list__item">
+            Ultrices dui sapien eget mi proin sed libero enim sed
+          </li>
+          <li class="article__list__item">
+            Leo urna molestie at elementum eu facilisis sed odio morbi
+          </li>
+        </ul>
+        <h1 class="article__title article__title__subtitle">
+          Sub title within a title ultrices dui sapien eget mi proin sed libero
+          enim sed
+        </h1>
+        <p class="article__para">
+          Ultrices sagittis orci a scelerisque purus semper. Quis commodo odio
+          aenean sed adipiscing diam donec adipiscing tristique. Nec tincidunt
+          praesent semper feugiat nibh sed pulvinar proin. Iaculis nunc sed
+          augue lacus viverra. Platea dictumst quisque sagittis purus.
+          Adipiscing elit pellentesque habitant morbi tristique senectus et.
+          Ipsum nunc aliquet bibendum enim facilisis. Ut tellus elementum
+          sagittis vitae et. Urna nec tincidunt praesent semper feugiat nibh sed
+          pulvinar. Cras ornare arcu dui vivamus arcu. Dui faucibus in ornare
+          quam viverra orci sagittis eu. Tristique et egestas quis ipsum
+          suspendisse ultrices gravida dictum fusce. Dictum sit amet justo donec
+          enim diam vulputate. Magna eget est lorem ipsum dolor sit amet. Massa
+          placerat duis ultricies lacus. Et egestas quis ipsum suspendisse
+          ultrices gravida. Pellentesque id nibh tortor id aliquet lectus proin
+          nibh nisl. Amet tellus cras adipiscing enim eu turpis egestas pretium.
+          At in tellus integer feugiat scelerisque varius morbi enim.
+        </p>
+        <div class="article__poll">
+          <div class="article__poll__choice">
+            <button class="article__poll__choice__btn" data-choice="1">
+              Press to choose this one from the poll
+            </button>
+            <span class="article__poll__perc">78%</span>
+          </div>
+          <div class="article__poll__choice">
+            <button class="article__poll__choice__btn" data-choice="2">
+              Press to choose this one from the poll
+            </button>
+            <span class="article__poll__perc">18%</span>
+          </div>
+        </div>
+        <p class="article__para">
+          Ullamcorper sit amet risus nullam. Aliquet sagittis id consectetur
+          purus ut faucibus. Sapien pellentesque habitant morbi tristique
+          senectus. Mauris pellentesque pulvinar pellentesque habitant morbi
+          tristique. Congue nisi vitae suscipit tellus mauris. Sed faucibus
+          turpis in eu mi bibendum neque. Amet massa vitae tortor condimentum
+          lacinia quis vel eros. A diam maecenas sed enim ut sem. Neque viverra
+          justo nec ultrices dui sapien eget mi proin.
+        </p>
+      </div>
+    </section>
+    <section class="article__vote">
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center"
+      >
+        <h1 class="article__vote__title">Did you like this article?</h1>
+        <div class="article__vote__content d-flex align-items-center">
+          <button
+            class="article__vote__content__like article__vote__content__item"
+          >
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="fa-regular:thumbs-up"
+              style="font-size: 36px"
+            ></span></button
+          ><button
+            class="article__vote__content__dislike article__vote__content__item"
+          >
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="fa-regular:thumbs-down"
+              style="font-size: 36px"
+            ></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div
+          class="row d-flex align-items-center justify-content-between footer__row"
+        >
+          <div class="footer__brand col-lg-4 col-sm-12">
+            <a href="/"
+              ><img class="footer__brand__logo" src="./img/logo-l.svg" alt=""
+            /></a>
+            <span class="footer__brand__para"
+              >The best blogging platform about anime, technology and
+              development</span
+            >
+          </div>
+          <ul class="footer__menu col-lg-8 col-sm-12 d-flex">
+            <li class="footer__menu__item"><a href="/">Twitter</a></li>
+            <li class="footer__menu__item"><a href="/">Instagram</a></li>
+            <li class="footer__menu__item"><a href="/">Facebook</a></li>
+            <li class="footer__menu__item footer__menu__item-focus">
+              <a href="/" class="container__btn">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex footer__bottom">
+          <a href="/" class="footer__bottom__link"
+            >© it.otaku all rights reserved</a
+          >
+          <a href="/" class="footer__bottom__link">Privacy policy</a>
+          <a href="/" class="footer__bottom__link">Terms of use</a>
+        </div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+    <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
